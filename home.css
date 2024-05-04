@@ -11,7 +11,7 @@ body{
 }
 
 nav{
-    background-color: rgb(92, 55, 128);
+    background-color: rgb(132, 70, 138);
 }
 
 section,
@@ -24,8 +24,20 @@ p{
 }
 
 .container{
+    background-image: linear-gradient(150.24deg, rgba(124,124,124,0.558) 10%, rgba(37,37,37,0.541) 95%), url('imagens/banner.jpeg');
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 5%;
-    
+}
+
+header{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
