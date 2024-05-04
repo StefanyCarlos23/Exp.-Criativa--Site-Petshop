@@ -11,10 +11,14 @@ body{
 }
 
 nav{
-    background-color: rgb(132, 70, 138);
+    background-color: rgb(199, 160, 211);
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+nav a img{
+    width: 200px;
 }
 
 section,
