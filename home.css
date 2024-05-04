@@ -12,6 +12,9 @@ body{
 
 nav{
     background-color: rgb(132, 70, 138);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 section,
@@ -34,10 +37,4 @@ header{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-}
-
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
