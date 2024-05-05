@@ -68,3 +68,71 @@ nav a img{
 .btn:hover{
     background-color: rgb(141, 63, 123);
 }
+
+.info .container{
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.info .info-text{
+    width: 50%;
+    margin: 30px;
+    padding: 0 75px;
+}
+
+.info .info-text h3{
+    padding-bottom: 10px;
+    font-size: 40px;
+    color: rgb(81, 45, 31);
+}
+
+.info .info-text p{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.5em;;
+    color: rgb(81, 45, 31);
+    text-align: justify;
+}
+
+.info .info-img img{
+    width: 600px;
+    padding-top: 20px;
+    padding-right: 75px;
+}
+
+.contatos h4{
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: rgb(81, 45, 31);
+    text-align: center;
+}
+
+.contatos .container .cards p{
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 65px;
+    line-height: 1.5em;
+    padding-bottom: 50px;
+}
+
+.cards{
+    margin: 20px;
+    padding: 10px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.cards .card-item-1{
+    width: 33%;
+}
+
+.cards .card-item-2{
+    width: 33%;
+}
+
+.cards .card-item-3{
+    width: 33%;
+}
