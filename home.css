@@ -220,11 +220,10 @@ header{
 footer{
     text-align: center;
     background-color: rgb(241, 128, 58);
-    border-top: 3px solid rgb(158, 64, 136);
+    border-top: 3px solid rgb(241, 128, 58);
 }
 
 footer p{
     text-align: center;
     color: white;
-    text-decoration: uppercase;
 }
