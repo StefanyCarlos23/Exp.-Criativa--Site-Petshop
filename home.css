@@ -37,12 +37,13 @@ nav ul a{
     display: block;
 }
 
-nav ul a::after{
+nav ul a:not(.btn)::after{
     content: "";
     background-color: white;
     height: 3px;
     width: 0;
     display: block;
+    margin: 0 auto;
     transition: 0.3s;
 }
 
@@ -59,11 +60,11 @@ footer{
     padding: 30px 0;
 }
 
-p{
+header .container p{
     color: white;
 }
 
-.container{
+header .container{
     background-image: linear-gradient(150.24deg, rgba(124, 124, 124, 0.558) 10%, rgba(37, 37, 37, 0.541) 95%), url('imagens/banner.jpeg');
     max-width: 1400px;
     margin: 0 auto;
@@ -80,8 +81,21 @@ p{
     transition: 0.2s;
 }
 
+.btn.animate-btn{
+    animation: animate-outline 1s ease-out infinite;
+}
+
 .btn:hover{
     background-color: rgb(141, 63, 123);
+}
+
+@keyframes animate-outline {
+    from{
+        outline: 0px solid rgb(194, 116, 176);
+    }
+    to{
+        outline: 10px solid rgb(194, 116, 176);
+    }
 }
 
 header{
@@ -112,7 +126,37 @@ header{
 }
 
 .banner .banner-text p{
-    font-size: 20px;
-    color: rgb(233, 233, 233);
-    margin: 13px 0;
+    font-size: 22px;
+    color: rgb(219, 219, 219);
+    margin: 14px 0;
+}
+
+.introducao .container{
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.introducao .introducao-text{
+    width: 50%;
+    margin: 40px;
+    padding: 0 50px;
+}
+
+.introducao .introducao-text h3{
+    padding-bottom: 10px;
+    font-size: 40px;
+    color: rgb(158, 64, 136);
+}
+
+.introducao .introducao-text p{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 130%;
+    color: rgb(158, 64, 136);
+}
+
+.introducao .introducao-text a{
+    font-size: 18px;
 }
