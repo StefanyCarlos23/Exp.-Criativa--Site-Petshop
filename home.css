@@ -195,6 +195,7 @@ header{
     text-align: center;
     margin: 20px 65px;
     line-height: 1.5em;
+    padding-bottom: 50px;
 }
 
 .cards{
@@ -214,4 +215,16 @@ header{
 
 .cards .card-item-3{
     width: 33%;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(241, 128, 58);
+    border-top: 2px solid rgb(158, 64, 136);
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    text-decoration: uppercase;
 }
