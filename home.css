@@ -173,3 +173,12 @@ header{
 .cliente .container img{
     width: 310px;
 }
+
+.depoimentos .container h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    color: rgb(81, 45, 31);
+}
