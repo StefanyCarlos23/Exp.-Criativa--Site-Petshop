@@ -102,9 +102,9 @@ footer{
 }
 
 .info .info-img img{
-    width: 600px;
+    width: 500px;
     padding-top: 20px;
-    padding-right: 75px;
+    padding: 0 35px;
 }
 
 .contatos h4{
@@ -134,8 +134,6 @@ footer{
 .cards{
     margin: 20px;
     padding: 10px;
-    padding-top: 0;
-    padding-bottom: 30px;
     display: flex;
     justify-content: center;
 }
