@@ -121,13 +121,13 @@ header{
 .introducao .container{
     display: flex;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 40px;
 }
 
 .introducao .introducao-text{
     width: 50%;
     margin: 30px;
-    padding: 0 75px;
+    padding: 0 70px;
 }
 
 .introducao .introducao-text h3{
@@ -137,10 +137,15 @@ header{
 }
 
 .introducao .introducao-text p{
-    padding-top: 10px;
     font-size: 18px;
     line-height: 1.5em;;
     color: rgb(81, 45, 31);
+    text-align: justify;
+}
+
+.introducao .introducao-text a{
+    font-size: 18px;
+    line-height: 1.5em;;
     text-align: justify;
 }
 
@@ -150,15 +155,15 @@ header{
 }
 
 .introducao .introducao-img img{
-    width: 600px;
-    padding-top: 20px;
-    padding-right: 75px;
+    width: 626px;
+    padding-top: 50px;
+    padding-right: 105px;
 }
 
 .cliente .container h3{
     display: flex;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 30px;
     font-size: 40px;
     color: rgb(81, 45, 31);
@@ -177,7 +182,7 @@ header{
 .depoimentos h3{
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 30px;
     font-size: 40px;
     color: rgb(81, 45, 31);
