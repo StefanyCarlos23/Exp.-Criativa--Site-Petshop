@@ -68,3 +68,69 @@ nav a img{
 .btn:hover{
     background-color: rgb(141, 63, 123);
 }
+
+.introducao .container{
+    justify-content: space-between;
+    display: flex;
+    padding-top: 50px;
+}
+
+.introducao .introducao-text{
+    justify-content: space-between;
+    display:flex;
+    flex-direction: row;
+    width: 87%;
+    margin: 30px;
+    margin-left: 100px;
+    padding: 0 60px;
+}
+
+.introducao .introducao-text .text h3{
+    padding-bottom: 40px;
+    font-size: 40px;
+    color: rgb(81, 45, 31);
+}
+
+.introducao .introducao-text p{
+    padding-top: 7px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.5em;;
+    color: rgb(81, 45, 31);
+    text-align: justify;
+}
+
+.text{
+    padding-top: 40px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.5em;;
+    color: rgb(81, 45, 31);
+    text-align: justify;
+}
+
+.imagem{
+    padding-left: 45px;
+    padding-right: 45px;
+    width: 850px;
+    height:500px;
+
+
+}
+
+footer{
+
+    text-align: center;
+    background-color: rgb(241, 128, 58);
+    border-top: 3px solid rgb(241, 128, 58)   
+}
+
+#footer{
+    padding: 30px 0px;
+
+}
+
+footer p{
+    text-align: center;
+    color: white;
+}

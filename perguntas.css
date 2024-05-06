@@ -68,3 +68,93 @@ nav a img{
 .btn:hover{
     background-color: rgb(141, 63, 123);
 }
+
+
+.perguntas{
+    width: 80%;
+    margin: 40px;
+
+}
+
+#title{
+    font-size: 50px;
+    color: rgb(81, 45, 31);
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+
+.perguntas h3{
+    padding-bottom: 10px;
+    padding-left: 200px;
+    font-size: 25px;
+    color: rgb(81, 45, 31);
+}
+
+.perguntas p{
+    padding-top: 5px;
+    padding-left: 200px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5em;;
+    color: rgb(81, 45, 31);
+    text-align: justify;
+}
+
+.lista{
+    padding-top: 5px;
+    padding-left: 210px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5em;;
+    color: rgb(81, 45, 31);
+    text-align: justify;
+}
+
+#informações{
+    display: flex;
+    flex-direction:row;
+    padding-top: 18px;
+    padding-bottom: 25px;
+    padding-left: 300px;
+    padding-right: 307px;
+    font-size: 18px;
+    line-height: 1.5em;;
+    color: rgb(81, 45, 31);
+    justify-content: space-between;
+
+
+
+}
+
+.btn{
+    background-color: rgb(158, 64, 136);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.2s;
+
+}
+
+.btn:hover{
+    background-color: rgb(141, 63, 123);
+}
+
+footer{
+
+    text-align: center;
+    background-color: rgb(241, 128, 58);
+    border-top: 3px solid rgb(241, 128, 58)   
+}
+
+#footer{
+    padding: 30px 0px;
+
+}
+
+footer p{
+    text-align: center;
+    color: white;
+}
