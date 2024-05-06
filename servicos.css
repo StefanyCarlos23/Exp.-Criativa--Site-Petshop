@@ -104,7 +104,7 @@ nav a img{
 
 .text{
     padding-top: 40px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     font-size: 18px;
     line-height: 1.5em;;
     color: rgb(81, 45, 31);
@@ -116,6 +116,7 @@ nav a img{
     padding-right: 45px;
     width: 500px;
     height: 450px;
+    padding-top: 30px;
 }
 
 footer{
