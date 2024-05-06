@@ -72,8 +72,9 @@ nav a img{
 .introducao .container{
     justify-content: space-between;
     display: flex;
-    padding-top: 40px;
-    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    align-items: center;
 }
 
 .introducao .introducao-text{
@@ -113,14 +114,11 @@ nav a img{
 .imagem{
     padding-left: 45px;
     padding-right: 45px;
-    width: 850px;
-    height:500px;
-
-
+    width: 500px;
+    height: 450px;
 }
 
 footer{
-
     text-align: center;
     background-color: rgb(241, 128, 58);
     border-top: 3px solid rgb(241, 128, 58)   
@@ -128,7 +126,6 @@ footer{
 
 #footer{
     padding: 30px 0px;
-
 }
 
 footer p{
