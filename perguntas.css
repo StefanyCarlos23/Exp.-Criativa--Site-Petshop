@@ -104,18 +104,18 @@ nav a img{
     padding-left: 210px;
     padding-bottom: 10px;
     font-size: 18px;
-    line-height: 1.5em;;
+    line-height: 1.5em;
     color: rgb(81, 45, 31);
     text-align: justify;
 }
 
 #informações{
     display: flex;
-    flex-direction:row;
-    padding-top: 18px;
-    padding-bottom: 25px;
-    padding-left: 300px;
-    padding-right: 307px;
+    flex-direction: row;
+    padding-bottom: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    align-items: center;
     font-size: 18px;
     line-height: 1.5em;;
     color: rgb(81, 45, 31);
@@ -137,7 +137,6 @@ nav a img{
 }
 
 footer{
-
     text-align: center;
     background-color: rgb(241, 128, 58);
     border-top: 3px solid rgb(241, 128, 58)   
