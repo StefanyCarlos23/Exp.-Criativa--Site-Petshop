@@ -67,6 +67,7 @@ header .container p{
 header .container{
     background-image: linear-gradient(150.24deg, rgba(124, 124, 124, 0.558) 10%, rgba(37, 37, 37, 0.541) 95%), url('imagens/banner.jpeg');
     max-width: 100%;
+    background-size: cover;
 }
 
 .btn{
