@@ -69,10 +69,15 @@ nav a img{
     background-color: rgb(141, 63, 123);
 }
 
+.info{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
 .introducao .container{
     justify-content: space-between;
     display: flex;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 10px;
     align-items: center;
 }
@@ -114,8 +119,7 @@ nav a img{
 .imagem{
     padding-left: 45px;
     padding-right: 45px;
-    width: 500px;
-    height: 450px;
+    width: 450px;
     padding-top: 30px;
 }
 
